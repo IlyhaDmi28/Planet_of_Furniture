@@ -3,7 +3,6 @@ body {
 }
 
 .header {
-  width: 1920px;
   height: 160px;
   background: rgba(132, 130, 130, 0.22);
 }
@@ -14,12 +13,13 @@ body {
 
 .logo img {
   position: absolute;
-  width: 105px;
+  width: 130px;
   height: 123px;
 }
 
 .logo .text {
-  padding-top: 20px;
+  padding-top: 23px;
+  margin-left: 10px;
   width: 950px;
   font-family: 'Seymour One';
   font-size: 60px;
@@ -32,7 +32,6 @@ body {
 }
 
 nav {
-  width: 1920px;
   height: 40px;
   margin-top: 0px;
   background: #000000;
