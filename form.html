@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Планета мебели</title>
-    <link href="css/planet_furniture.css" rel="stylesheet">
+    <link href="style/planet_furniture.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width">
   </head>
   <body>
-    
+      <main class="form">
+
+        <div class="name_forms"><b>Оставить заявку</b></div>
         <form>
             <div>
                 <b>Имя</b>
@@ -26,7 +28,7 @@
             </div>
             <div>
                 <b>Электронная почта</b>
-                <input type="text" placeholder="mondaxfeall1@gamil.com"/>
+                <input type="email" placeholder="mondaxfeall1@gamil.com"/>
             </div>
             <div>
                 <b>Номер телефона</b>
@@ -34,11 +36,16 @@
             </div>
             <div>
                 <b>Способ оплаты</b>
-                <input type="text" placeholder="Карта"/>
+                <select>
+                    <option>Карта</option>
+                    <option>Налам</option>
+                    <option>Аналам</option>
+                  </select>
             </div>
             <div class="order">
                 <input type="submit" value="Заказать">
             </div>  
         </form>
+    </main>
   </body>
 </html>

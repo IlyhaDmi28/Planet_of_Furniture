@@ -1,0 +1,1029 @@
+
+body {
+    background: #ffffff;
+    margin: 0;
+}
+
+
+.logo {
+    margin: 0px auto;
+    max-width: 900px;
+     img {
+        float: left;
+        padding-left: 30px;
+        max-width: 128px;
+    }
+    text-align: center;
+    font-family: "Seymour One";
+    font-size: 60px;
+    .text {
+        padding-top: 35px;
+    }
+        
+}  
+.header {
+    height: 138px;
+    background: rgba(132, 130, 130, 0.22);
+    margin-right: 0;
+    width: 100vw;
+}
+
+
+nav {
+    height: 40px;
+    margin-top: 0px;
+    background: #000000;
+    width: 100vw;
+    .menu {
+        text-align: center;
+        margin: 0px auto;
+        padding-top: 5px;
+        padding-left: 0px;
+        width: 100%;
+        height: 40px;//п 2
+        li{
+            width: 15%;
+            display: inline-block;
+            text-align: center;
+        }
+        a{
+            font-family: 'Risque';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover{
+                text-decoration-skip-ink: none;
+                text-decoration: underline;
+            }
+        }
+        .sel {
+            position: absolute;  
+            ul {
+                display: none;
+                position: absolute;
+                padding-left: 0px;
+                padding-top: 5px;
+                li{
+                   width: 100%;
+                    height: 40px;
+                    border: 1px solid black;
+                    background-color: rgb(37, 28, 28);
+                    a {
+                        color:white;
+                        text-align: center;
+                        font-size: 18px;
+                        line-height: 40px;
+                    }
+                }
+            }
+            &:hover {
+                ul {
+                    display: block;
+                }
+            }
+        }     
+    }
+    .other_menu{
+        margin-left: 265px;
+    }
+}
+
+article {
+    margin: 50px auto;
+    max-width: 1300px;
+        .small_Posters{
+            width: 25%;
+            padding-left: 70px;
+            a{
+                width: 100%;
+            }
+            .hr1{
+                display: block;
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
+            .hr2{
+                display: block;
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+                padding-top: 14%;   
+            }
+        }
+        .hr3{
+            display: block;
+            float: right;
+            width: 57%;
+            padding-right: 70px;
+            img {
+                width: 100%;
+                border-radius: 10px;    
+            }
+        }
+    
+    .catalog{
+        margin-top: 50px;
+        text-align: center;
+        
+        img {
+            width: 7%;
+            margin-left: 9%;
+        }
+    }
+    // Catalogy----------------------------------------------------------------------------------------------------------------------------------------
+    .ProductLeft{
+        width: 30%;
+        float: left;
+        margin-left: 15%;
+        .pictureProduct {
+            border-radius: 10px;
+            width: 100%;
+            height: 250px;
+        }
+        a {
+            margin-top: 35px;
+            display: block;
+            font-size: 20px;
+            color: #000000;
+            text-decoration: none;
+            &:first-child{
+                margin-top: 0px;
+            }
+            &:hover {
+                transform: scale(1.01);
+            }
+            .name_Product {
+                height: 44.8px;
+            }
+        }
+        .price {
+            text-align: center;
+            span {
+                color: red;
+            }
+        }
+    }
+    
+    .ProductRight{
+        width: 30%;
+        float: right;
+        margin-right: 15%;;
+        
+        .pictureProduct {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;
+        }
+        a {
+            margin-top: 35px;
+            display: block;
+            font-size: 20px;
+            color: #000000;
+            text-decoration: none;
+            &:first-child{
+                margin-top: 0px;
+            }
+            &:hover {
+                transform: scale(1.01);
+            }
+            .name_Product {
+                height: 44.8px;
+            }
+        }
+        .price {
+            text-align: center;
+            span {
+                color: red;
+            }
+        }
+    }
+     //akcii ----------------------------------------------------------------------------------------------------------------------------------------
+    .akcii{
+         margin-top: 50px;
+         width: 90%;
+         padding-left: 70px;
+         img {
+             width: 30%;
+         }
+         div{
+            font-family: 'Roboto';
+            font-size: 28px;
+            line-height: 35px;
+            width: 50%;
+            float: right;
+            padding-right: 200px;
+            text-align: justify;
+            padding-top: 50px;
+         }
+     }
+     // ----------------------------------------------------------------------------------------------------------------------------------------
+     .main_info_Installments{
+        list-style-type: none;
+        font-family: 'Roboto';
+        font-size: 22px;;
+        align-items: center;
+     }
+     .text_Installments {
+        padding-left: 40px;
+        font-family: 'Risque';
+        font-size: 20px;
+        align-items: center;
+        div {           
+            font-size: 24px;
+        }
+     }
+     .info_Installments {
+        font-family: 'Risque';
+        font-size: 20px;
+        align-items: center;
+        margin-left: 50px;
+     }
+
+     //delivery-----------------------------------------------------------------------------------
+     //delivery-----------------------------------------------------------------------------------
+     //delivery-----------------------------------------------------------------------------------
+     //delivery-----------------------------------------------------------------------------------
+     .yellow_Line {
+        background-color: yellow;
+        height: 70px;
+        border-radius: 10px;
+        line-height: 70px;
+        font-size: 24px;
+        text-align: left;
+        width: 100%;
+        p {
+            padding-left: 40px;
+        }
+    }
+    .main_Text {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .delivery_Info {
+        width: 45%;
+        height: 300px;
+        margin-top: 30px;
+        border-radius: 7px;
+        font-size: 20px;
+        tr {
+            td{
+                border: 1px solid gray;
+            }
+            th {
+                border: 1px solid gray;
+                background-color: rgb(62, 199, 85);
+                color: white;
+                &:first-child{
+                    border-top-left-radius: 10px;
+                }
+                &:last-child {
+                    border-top-right-radius: 10px;
+                }
+            }          
+        }
+    }
+    .car {
+        float: right;
+        padding-right: 200px;
+        width: 500px;
+        display: block;
+    }
+    .foot_table {
+        font-size: 18px;
+        margin-top: 30px;
+        color: rgb(43, 48, 87);
+        width: 50%;
+    }
+    //------------------------------------------------------------------------------
+    //Campany
+    .Campany{
+        width: 70%;
+        p {
+            font-size: 60px;
+        }
+        .logo {
+            margin-left: 0px;
+        }
+    }
+    .main_info_Campany{
+        margin-top: 60px;
+        width: 67%;
+        font-family: 'Roboto';
+        font-size: 22px;
+    }
+    .info_Campany {
+        font-family: 'Manrope';
+        font-size: 22px;
+        width: 67%;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    
+}
+
+.product {
+    max-width: 1500px;
+    height: 700px;
+    margin: 50px auto;
+    padding: 0px 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    img {
+        padding-top: 20px;
+    }
+    .price_on_Info{
+        font-size: 30px;
+        width: 300px;
+        margin-top: 20px;
+        padding-left: 17px;
+        span {
+            color: red;
+        }
+    }
+    .info_Prod{
+        padding-top: 0px;
+        float: right;
+        padding-right: 250px;
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        align-items: center;
+        p:first-child{
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 38px;
+            align-items: center;
+            text-decoration-line: underline;
+            
+        }
+        .buy{
+            margin-top: 45px;
+            background-color: rgb(2, 155, 2);
+            width: 200px;
+            height: 50px;
+            float: left;
+            border-radius: 3px;
+            .make_Purchase{
+                font-size: 26px;
+                text-decoration-line: none;
+                padding-left: 60px;
+                line-height: 50px;
+                color:#FFFFFF;
+            }
+        }
+    }
+    //--------------------------------------------------------------------------
+}
+
+.cat {
+    
+}
+
+.form {
+    max-width: 1363px;
+    margin: 50px auto;
+    padding: 0px 15px;
+    .name_forms{
+        font-family: 'Oswald';
+        font-size: 50px;
+        text-decoration-line: underline;
+        text-decoration-skip-ink: none;
+        text-decoration: underline;
+    }
+    form{
+        div {
+            margin-top: 24px;
+            width: 600px;   
+            input {
+                width: 600px;
+                height: 70px;
+                border-radius: 15px;
+                font-size: 25px;
+                padding-left: 8px;
+                &::-webkit-input-placeholder {
+                    font-size: 25px;
+                    opacity: 0.7;
+                    font-family: 'Oswald';
+                }
+            }
+            select {
+                width: 600px;
+                height: 70px;
+                border-radius: 15px;
+                font-size: 25px;
+                font-family: 'Oswald';
+                padding-left: 10px;
+                option {
+                    font-size: 25px;
+                    padding-left: 10px;
+                    opacity: 0.7;
+                    font-family: 'Oswald';
+                }
+            }
+            b {
+                font-family: 'Oswald';
+                font-size: 28px;
+                line-height: 67px;
+            }
+            float: left;
+            &:nth-child(even){
+                float: right;  
+            }
+        } 
+        .order {
+            margin-top: 100px;
+            input {
+                background-color: green;
+                width: 300px;
+                float: right;
+                width: 300px;
+                color: white;         
+                font-family: 'Oswald';
+                font-size: 35px;
+                line-height: 59px;
+            }
+            float: right;
+            width: 300px;
+        }  
+    }  
+}
+
+footer{
+    padding-bottom: 40px;
+    .footer__pay {
+        border-top: 1px solid #efefef;
+        border-bottom: 1px solid #efefef;
+        .footer__pay-logo {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .pic-left {
+                margin-right: 20px;
+            }
+            .pic-right {
+                margin-left: 20px;
+            }
+            img{
+                width: 100%;
+                display: block;
+                max-height: 40px;
+            }
+        }
+    }
+    .footer__text {
+        font-family: Gilroy,sans-serif;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+        max-width: 1245px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 17px;
+        align-items: center;
+        color: #606060;
+    }
+    .footer__add {
+        text-align: center;
+        .footer__add-text {
+            font-family: Gilroy,sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 18px;
+            align-items: center;
+            text-align: center;
+            color: #000;
+        }
+    }
+}
+
+////////////////////////////////
+////////////////////////////////
+////////////////////////////////
+////////////////////////////////
+
+@media (max-width: 1280px)
+{
+    article {max-width: 1000px;
+        .akcii {
+            div {
+                font-size: 28px;
+                padding-right: 100px;
+            }
+        }
+        .Campany{
+            width: 70%;
+            p {
+                font-size: 45px;
+            }
+        }
+        .car {
+            float: right;
+            padding-right: 30px;    
+        }
+        .foot_table {
+            font-size:18px;
+        }
+        .main_info_Campany{
+            margin-top: 50px;
+            font-size: 20px;
+        }
+        .info_Campany {
+            font-size: 20px;
+            margin-top: 16px;
+        }
+        .logo {
+            max-width: 480px;
+            img {
+                max-width: 70px;
+            }
+            .text {
+                font-size: 30px;
+                padding-top: 20px
+            }  
+        }
+    }
+
+}
+
+@media (max-width: 1042px)
+{
+    article {max-width: 950px;
+        .akcii{
+            div {
+                float: none;
+            }
+        }
+        .car {
+            padding-right: 0px;
+        }
+    }
+}   
+
+@media (max-width: 920px)
+{
+    article {
+        .akcii{
+            div {
+            font-size: 20px;
+            line-height: 20px;
+            }
+        }
+        .car {
+            width: 440px; 
+        }
+    }
+} 
+
+
+
+@media (max-width: 890px)
+{
+    .header{
+        height: 120px;
+    }
+        .logo {
+            max-width: 750px;
+            img {
+                max-width: 98px;
+            }
+            .text {
+                font-size: 50px;
+            }  
+        
+    }
+    article {max-width: 850px;
+    .delivery_Info {
+        height: 250px;
+    .car{
+        float: right;
+        padding-right: 10px;
+        width: 30%;
+        img {
+            width: 150%;
+        }
+    }
+}
+}
+
+@media (max-width: 842px)
+{
+    article {
+        max-width: 800px;
+        .small_Posters{
+            padding-left: 20px;
+        }
+        .hr3 {
+            padding-right: 20px;
+        }
+        .akcii {
+            div {
+                padding-top: 10px;
+            }
+        }
+    }
+    .header {
+        height: 80px;
+    }
+    .logo {
+        max-width: 480px;
+        img {
+            max-width: 70px;
+        }
+        .text {
+            font-size: 30px;
+            padding-top: 20px
+        }  
+    }
+    nav {
+        height: 30px;
+        .menu {
+            padding-top: 1px;
+            li{
+                width: 15%;
+                display: inline-block;
+                text-align: center;
+            }
+            a{
+                font-size: 16px;
+                // line-height: 28px;
+            }     
+        }
+        .other_menu {
+            margin-left: 100px;
+        }
+    }
+}
+
+@media (max-width: 842px)
+{
+    article {
+        max-width: 800px;
+        .small_Posters{
+            padding-left: 20px;
+        }
+        .hr3 {
+            padding-right: 20px;
+        }
+    
+        .delivery_Info {
+            font-size: 16px;
+        }
+
+        .car {
+            width: 365px;
+        }
+    //     .foot_table {
+    //         font-size: 18px;
+    //         margin-top: 30px;
+    //         color: rgb(43, 48, 87);
+    //         width: 100%;
+    //     }
+    }
+}   
+}
+
+@media (max-width: 700px)
+{
+    article {
+        .akcii{
+            text-align: center;
+            padding-left: 0px;
+            div {
+                width: 50%;
+                font-size: 16px;
+                padding-left: 30%;
+                text-align: start;
+            }
+        }
+        .foot_table {
+            width: 100%;
+        }
+        .Campany{
+            p {
+                font-size: 40px;
+            }
+        }
+        .main_info_Campany{
+            margin-top: 50px;
+            font-size: 16px;
+        }
+        .info_Campany {
+            font-size: 17px;
+            margin-top: 15px;
+        }
+    }
+}   
+
+@media (max-width: 675px)
+{
+    article {
+       margin-top: 30px;
+        .main_Text {
+            font-size: 26px;
+
+        }
+        
+        .delivery_Info {
+            font-size: 13px;
+            height: 200px;
+            
+        }
+        .car {
+            width: 330px;
+        }
+        .logo {
+            max-width: 400px;
+            img {
+                max-width: 55px;
+            }
+            .text {
+                font-size: 24px;
+                padding-top: 15px
+            }  
+        }
+        .catalog {
+        margin-top: 10px;
+        }
+    }
+}   
+
+// @media (max-width: 600px)
+// {
+//     article {
+//         .yellow_Line {
+//             height: 60px;
+//             border-radius: 10px;
+//             line-height: 60px;
+//             font-size: 20px;
+//             text-align: left;
+//             width: 100%;
+//             p {
+//                 padding-left: 30px;
+//             }
+//         }
+//         .delivery_Info {
+//             font-size: 13px;
+//             height: 180px;
+            
+//         }
+//         .car {
+//             width: 280px;
+//         }
+//         .foot_table {
+//             font-size: 15px;
+//         }
+//     }
+// }   
+
+@media (max-width: 600px)
+{
+    article {
+        .yellow_Line {
+            height: 60px;
+            border-radius: 10px;
+            line-height: 60px;
+            font-size: 20px;
+            text-align: left;
+            width: 100%;
+            p {
+                padding-left: 30px;
+            }
+        }
+        .delivery_Info {
+            font-size: 13px;
+            height: 180px;
+            
+        }
+        .car {
+            width: 280px;
+        }
+        .foot_table {
+            font-size: 15px;
+        }
+    }
+}  
+
+@media (max-width: 560px)
+{
+    header {
+        height: 105px;
+    }
+    .header {
+        height: 80px;
+    }
+    .logo {
+        max-width: 400px;
+        img {
+            max-width: 55px;
+        }
+        .text {
+            font-size: 24px;
+            padding-top: 15px
+        }  
+    }
+    nav {
+        height: 25px;
+        .menu {
+            height: 50px;
+            padding-top: 0px;
+            li{
+                width: 15%;
+                display: inline-block;
+                text-align: center;
+            }
+            a{
+                font-size: 12px;
+                // line-height: 28px;
+            }     
+        }
+        .other_menu {
+            margin-left: 100px;
+        }
+    }
+    article {
+        .logo {
+            max-width: 290px;
+            img {
+                max-width: 35px;
+            }
+            .text {
+                font-size: 18px;
+                padding-top: 9px
+            }  
+        }
+        .Campany{
+            margin-top: 80px;
+            p {
+                font-size: 35px;    
+            }
+        }
+        .main_info_Campany{
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        .info_Campany {
+            font-size: 17px;
+            margin-top: 15px;
+        }
+    }
+}
+@media (max-width: 506px)
+{
+    .header {
+        height: 67px;
+    }
+    header {
+        height: 92px;
+    }
+    article {
+        width: 100vw;
+        .yellow_Line {
+            height: 50px;
+            width: 100%;
+            line-height: 50px;
+        }
+        .main_Text {
+            font-size: 20px;
+        }
+        .delivery_Info {
+            font-size: 10px;
+            height: 100px;
+            
+        }
+        .car {
+            width: 50vw;
+            padding-left: 0px;
+        }
+        .foot_table {
+            font-size: 12px;
+        }
+    }
+}   
+@media (max-width: 414px)
+{
+    header {
+        height: 60px;
+    }
+    article {
+        margin-top: 20px;
+        .akcii{
+            text-align: center;
+            padding-left: 0px;
+            div {
+                width: 40%;
+                font-size: 13px;
+                padding-left: 32%;
+                text-align: start;
+            }
+        }
+        .logo {
+            max-width: 200px;
+            img {
+                max-width: 25px;
+            }
+            .text {
+                font-size: 12px;
+                padding-top: 6px
+            }  
+        }
+        .Campany{
+            margin-top: 30px;
+            p {
+                font-size: 28px;    
+            }
+        }
+        .main_info_Campany{
+            margin-top: 30px;
+            font-size: 12px;
+        }
+        .info_Campany {
+            font-size: 12px;
+            margin-top: 15px;
+        }
+    }
+    .header {
+        height: 35px;
+    }
+    .logo {
+        max-width: 290px;
+        img {
+            max-width: 35px;
+        }
+        .text {
+            font-size: 18px;
+            padding-top: 9px
+        }  
+    }
+    nav {
+        height: 25px;
+        .menu {
+            padding-top: 0px;
+            li{
+                width: 15%;
+                display: inline-block;
+                text-align: center;
+            }
+            a{
+                font-size: 9px;
+                // line-height: 28px;
+            }     
+        }
+        .other_menu {
+            margin-left: 50px;
+        }
+    }
+}
+
+@media (max-width: 300px)
+{
+    .header {
+        height: 30px;
+    }
+    .logo {
+        max-width: 200px;
+        img {
+            max-width: 25px;
+        }
+        .text {
+            font-size: 12px;
+            padding-top: 6px
+        }  
+    }
+    nav {
+        height: 20px;
+        .menu {
+            padding-top: 0px;
+            li{
+                width: 15%;
+                display: inline-block;
+                text-align: center;
+            }
+            a{
+                font-size: 6px;
+                
+            }     
+        }
+        .other_menu {
+            margin-left: 50px;
+        }
+    }
+}
