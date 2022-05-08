@@ -1,3 +1,21 @@
+@mixin prod ($poz, $otsl, $otzr){
+    width: 30%;
+    float: $poz;
+    margin-left: $otsl;
+    margin-right: $otzr;
+}
+@mixin picProd {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+@mixin textProd {
+    margin-top: 35px;
+    display: block;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
 
 body {
     background: #ffffff;
@@ -140,20 +158,12 @@ article {
     }
     // Catalogy----------------------------------------------------------------------------------------------------------------------------------------
     .ProductLeft{
-        width: 30%;
-        float: left;
-        margin-left: 15%;
+        @include prod (left, 15%, 0);
         .pictureProduct {
-            border-radius: 10px;
-            width: 100%;
-            height: 250px;
+            @include picProd;
         }
         a {
-            margin-top: 35px;
-            display: block;
-            font-size: 20px;
-            color: #000000;
-            text-decoration: none;
+            @include textProd;
             &:first-child{
                 margin-top: 0px;
             }
@@ -173,21 +183,13 @@ article {
     }
     
     .ProductRight{
-        width: 30%;
-        float: right;
-        margin-right: 15%;;
+        @include prod (right, 0, 15%);
         
         .pictureProduct {
-            width: 100%;
-            height: 250px;
-            border-radius: 10px;
+            @include picProd;
         }
         a {
-            margin-top: 35px;
-            display: block;
-            font-size: 20px;
-            color: #000000;
-            text-decoration: none;
+            @include textProd;
             &:first-child{
                 margin-top: 0px;
             }
@@ -387,7 +389,7 @@ article {
 }
 
 .cat {
-    
+    height: 1100px;
 }
 
 .form {
@@ -560,8 +562,18 @@ footer{
                 padding-top: 20px
             }  
         }
-    }
 
+        .ProductLeft {
+            .pictureProduct {
+                height: 200px;
+            }
+        }
+        .ProductRight {
+            .pictureProduct {
+                height: 200px;
+            }
+        }
+    }
 }
 
 @media (max-width: 1042px)
@@ -575,6 +587,25 @@ footer{
         .car {
             padding-right: 0px;
         }
+        .ProductLeft {
+            .pictureProduct {
+                height: 180px;
+            }
+            a {
+                font-size: 18px;
+            }
+        }
+        .ProductRight {
+            .pictureProduct {
+                height: 180px;
+            }
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+    .cat {
+        height: 900px;
     }
 }   
 
@@ -600,28 +631,49 @@ footer{
     .header{
         height: 120px;
     }
-        .logo {
-            max-width: 750px;
-            img {
-                max-width: 98px;
-            }
-            .text {
-                font-size: 50px;
-            }  
+    .logo {
+        max-width: 750px;
+        img {
+            max-width: 98px;
+        }
+        .text {
+            font-size: 50px;
+        }  
         
     }
     article {max-width: 850px;
-    .delivery_Info {
-        height: 250px;
-    .car{
-        float: right;
-        padding-right: 10px;
-        width: 30%;
-        img {
-            width: 150%;
+        .delivery_Info {
+            height: 250px;
+            .car{
+                float: right;
+                padding-right: 10px;
+                width: 30%;
+                img {
+                    width: 150%;
+                }
+            }
+        
+        }
+        .ProductLeft {
+            .pictureProduct {
+                height: 150px;
+            }
+            a {
+                font-size: 15px;
+            }
+        }
+        .ProductRight {
+            .pictureProduct {
+                height: 150px;
+            }
+            a {
+                font-size: 15px;
+            }
         }
     }
-}
+    .cat {
+        height: 700px;
+    }
 }
 
 @media (max-width: 842px)
@@ -699,7 +751,7 @@ footer{
     //     }
     }
 }   
-}
+
 
 @media (max-width: 700px)
 {
@@ -729,6 +781,22 @@ footer{
         .info_Campany {
             font-size: 17px;
             margin-top: 15px;
+        }
+        .ProductLeft {
+            .pictureProduct {
+                height: 130px;
+            }
+            a {
+                font-size: 12px;
+            }
+        }
+        .ProductRight {
+            .pictureProduct {
+                height: 130px;
+            }
+            a {
+                font-size: 12px;
+            }
         }
     }
 }   
@@ -819,6 +887,31 @@ footer{
         .foot_table {
             font-size: 15px;
         }
+        .ProductLeft {
+            .pictureProduct {
+                height: 100px;
+            }
+            a {
+                font-size: 10px;
+                .name_Product {
+                    height: 32px;
+                }
+            }
+        }
+        .ProductRight {
+            .pictureProduct {
+                height: 100px;
+            }
+            a {
+                font-size: 10px;
+                .name_Product {
+                    height: 32px;
+                }
+            }
+        }
+    }
+    .cat {
+        height: 500px;
     }
 }  
 
@@ -916,6 +1009,31 @@ footer{
         .foot_table {
             font-size: 12px;
         }
+        .ProductLeft {
+            .pictureProduct {
+                height: 80px;
+            }
+            a {
+                font-size: 8px;
+                .name_Product {
+                    height: 26px;
+                }
+            }
+        }
+        .ProductRight {
+            .pictureProduct {
+                height: 80px;
+            }
+            a {
+                font-size: 8px;
+                .name_Product {
+                    height: 26px;
+                }
+            }
+        }
+    }
+    .cat {
+        height: 400px;
     }
 }   
 @media (max-width: 414px)

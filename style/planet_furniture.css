@@ -161,12 +161,13 @@ article .ProductLeft {
   width: 30%;
   float: left;
   margin-left: 15%;
+  margin-right: 0;
 }
 
 article .ProductLeft .pictureProduct {
-  border-radius: 10px;
   width: 100%;
   height: 250px;
+  border-radius: 10px;
 }
 
 article .ProductLeft a {
@@ -201,6 +202,7 @@ article .ProductLeft .price span {
 article .ProductRight {
   width: 30%;
   float: right;
+  margin-left: 0;
   margin-right: 15%;
 }
 
@@ -446,6 +448,10 @@ article .info_Campany {
   color: #FFFFFF;
 }
 
+.cat {
+  height: 1100px;
+}
+
 .form {
   max-width: 1363px;
   margin: 50px auto;
@@ -637,6 +643,12 @@ footer .footer__add .footer__add-text {
     font-size: 30px;
     padding-top: 20px;
   }
+  article .ProductLeft .pictureProduct {
+    height: 200px;
+  }
+  article .ProductRight .pictureProduct {
+    height: 200px;
+  }
 }
 
 @media (max-width: 1042px) {
@@ -648,6 +660,21 @@ footer .footer__add .footer__add-text {
   }
   article .car {
     padding-right: 0px;
+  }
+  article .ProductLeft .pictureProduct {
+    height: 180px;
+  }
+  article .ProductLeft a {
+    font-size: 18px;
+  }
+  article .ProductRight .pictureProduct {
+    height: 180px;
+  }
+  article .ProductRight a {
+    font-size: 18px;
+  }
+  .cat {
+    height: 900px;
   }
 }
 
@@ -688,9 +715,24 @@ footer .footer__add .footer__add-text {
   article .delivery_Info .car img {
     width: 150%;
   }
+  article .ProductLeft .pictureProduct {
+    height: 150px;
+  }
+  article .ProductLeft a {
+    font-size: 15px;
+  }
+  article .ProductRight .pictureProduct {
+    height: 150px;
+  }
+  article .ProductRight a {
+    font-size: 15px;
+  }
+  .cat {
+    height: 700px;
+  }
 }
 
-@media (max-width: 890px) and (max-width: 842px) {
+@media (max-width: 842px) {
   article {
     max-width: 800px;
   }
@@ -735,7 +777,7 @@ footer .footer__add .footer__add-text {
   }
 }
 
-@media (max-width: 890px) and (max-width: 842px) {
+@media (max-width: 842px) {
   article {
     max-width: 800px;
   }
@@ -777,6 +819,18 @@ footer .footer__add .footer__add-text {
   article .info_Campany {
     font-size: 17px;
     margin-top: 15px;
+  }
+  article .ProductLeft .pictureProduct {
+    height: 130px;
+  }
+  article .ProductLeft a {
+    font-size: 12px;
+  }
+  article .ProductRight .pictureProduct {
+    height: 130px;
+  }
+  article .ProductRight a {
+    font-size: 12px;
   }
 }
 
@@ -830,6 +884,27 @@ footer .footer__add .footer__add-text {
   }
   article .foot_table {
     font-size: 15px;
+  }
+  article .ProductLeft .pictureProduct {
+    height: 100px;
+  }
+  article .ProductLeft a {
+    font-size: 10px;
+  }
+  article .ProductLeft a .name_Product {
+    height: 32px;
+  }
+  article .ProductRight .pictureProduct {
+    height: 100px;
+  }
+  article .ProductRight a {
+    font-size: 10px;
+  }
+  article .ProductRight a .name_Product {
+    height: 32px;
+  }
+  .cat {
+    height: 500px;
   }
 }
 
@@ -922,6 +997,27 @@ footer .footer__add .footer__add-text {
   }
   article .foot_table {
     font-size: 12px;
+  }
+  article .ProductLeft .pictureProduct {
+    height: 80px;
+  }
+  article .ProductLeft a {
+    font-size: 8px;
+  }
+  article .ProductLeft a .name_Product {
+    height: 26px;
+  }
+  article .ProductRight .pictureProduct {
+    height: 80px;
+  }
+  article .ProductRight a {
+    font-size: 8px;
+  }
+  article .ProductRight a .name_Product {
+    height: 26px;
+  }
+  .cat {
+    height: 400px;
   }
 }
 
