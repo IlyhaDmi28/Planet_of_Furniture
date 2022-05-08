@@ -604,6 +604,34 @@ footer .footer__add .footer__add-text {
   color: #000;
 }
 
+@media (max-width: 1370px) {
+  .product .info_Prod {
+    padding-right: 25px;
+  }
+}
+
+@media (max-width: 1136px) {
+  .product {
+    max-width: 800px;
+    height: 1300px;
+  }
+  .product img {
+    width: 100%;
+  }
+  .product .info_Prod {
+    padding-right: 25px;
+    float: none;
+  }
+  .product .info_Prod .buy {
+    margin-top: 70px;
+  }
+  .product .price_on_Info {
+    float: left;
+    position: absolute;
+    padding-left: 0px;
+  }
+}
+
 @media (max-width: 1280px) {
   article {
     max-width: 1000px;
@@ -648,6 +676,9 @@ footer .footer__add .footer__add-text {
   }
   article .ProductRight .pictureProduct {
     height: 200px;
+  }
+  .form form div:nth-child(even) {
+    float: none;
   }
 }
 
@@ -832,6 +863,31 @@ footer .footer__add .footer__add-text {
   article .ProductRight a {
     font-size: 12px;
   }
+  .product {
+    max-width: 600px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    height: 1000px;
+  }
+  .product img {
+    width: 100%;
+  }
+  .product .info_Prod {
+    padding-right: 25px;
+    float: none;
+    line-height: 20px;
+  }
+  .product .info_Prod p:first-child {
+    margin-bottom: 0px;
+  }
+  .product .info_Prod .buy {
+    margin-top: 70px;
+  }
+  .product .price_on_Info {
+    float: left;
+    position: absolute;
+    padding-left: 0px;
+  }
 }
 
 @media (max-width: 675px) {
@@ -860,6 +916,21 @@ footer .footer__add .footer__add-text {
   }
   article .catalog {
     margin-top: 10px;
+  }
+  footer .footer__text {
+    width: 100vw;
+    max-width: 1245px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 9px;
+    line-height: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer__add .footer__add-text {
+    font-size: 9px;
+    line-height: 9px;
   }
 }
 
@@ -905,6 +976,76 @@ footer .footer__add .footer__add-text {
   }
   .cat {
     height: 500px;
+  }
+  .form {
+    max-width: 1363px;
+    margin: 30px auto;
+  }
+  .form .name_forms {
+    font-family: 'Oswald';
+    font-size: 35px;
+    text-decoration: underline;
+  }
+  .form form div {
+    margin-top: 20px;
+    width: 90vw;
+    float: left;
+  }
+  .form form div input {
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 17px;
+    padding-left: 8px;
+  }
+  .form form div input::-webkit-input-placeholder {
+    font-size: 17px;
+    opacity: 0.7;
+    font-family: 'Oswald';
+  }
+  .form form div select {
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Oswald';
+    padding-left: 10px;
+  }
+  .form form div select option {
+    font-size: 25px;
+    padding-left: 10px;
+    opacity: 0.7;
+    font-family: 'Oswald';
+  }
+  .form form div b {
+    font-family: 'Oswald';
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .form form div:nth-child(even) {
+    float: none;
+  }
+  .form form .order {
+    margin-top: 0px;
+    float: none;
+    width: 200px;
+  }
+  .form form .order input {
+    margin-top: 40px;
+    background-color: green;
+    width: 100%;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 28px;
+    line-height: 14px;
+  }
+  footer .footer__text {
+    font-size: 8px;
+    line-height: 9px;
+  }
+  footer .footer__add .footer__add-text {
+    font-size: 8px;
+    line-height: 0px;
   }
 }
 
@@ -1018,6 +1159,42 @@ footer .footer__add .footer__add-text {
   }
   .cat {
     height: 400px;
+  }
+  .product {
+    margin-left: 0px;
+    max-width: 90%;
+    height: 800px;
+  }
+  .product img {
+    width: 100%;
+  }
+  .product .info_Prod {
+    padding-right: 25px;
+    float: none;
+    line-height: 20px;
+    font-size: 18px;
+  }
+  .product .info_Prod p:first-child {
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+  .product .info_Prod .buy {
+    margin-top: 50px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+  }
+  .product .info_Prod .buy .make_Purchase {
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 0px;
+  }
+  .product .price_on_Info {
+    float: left;
+    position: absolute;
+    padding-left: 0px;
+    font-size: 26px;
+    margin-top: 12px;
   }
 }
 
