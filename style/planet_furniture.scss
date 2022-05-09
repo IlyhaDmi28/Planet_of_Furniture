@@ -150,10 +150,15 @@ main {
     .catalog{
         margin-top: 50px;
         text-align: center;
+        a{
+            img {
+                width: 7%;
+                margin-left: 9%;
+                &:hover {
+                    transform: scale(1.03);
+                }
+            }
         
-        img {
-            width: 7%;
-            margin-left: 9%;
         }
     }
     // Catalogy----------------------------------------------------------------------------------------------------------------------------------------

@@ -152,9 +152,14 @@ main .catalog {
   text-align: center;
 }
 
-main .catalog img {
+main .catalog a img {
   width: 7%;
   margin-left: 9%;
+}
+
+main .catalog a img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 main .ProductLeft {

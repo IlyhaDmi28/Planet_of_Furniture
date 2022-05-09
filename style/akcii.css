@@ -1,0 +1,21 @@
+main .akcii {
+  margin-top: 50px;
+  width: 90%;
+  padding-left: 70px;
+}
+
+main .akcii img {
+  width: 30%;
+}
+
+main .akcii div {
+  font-family: 'Roboto';
+  font-size: 28px;
+  line-height: 35px;
+  width: 50%;
+  float: right;
+  padding-right: 200px;
+  text-align: justify;
+  padding-top: 50px;
+}
+/*# sourceMappingURL=akcii.css.map */

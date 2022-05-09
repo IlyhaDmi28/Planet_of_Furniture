@@ -1,234 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="576"
-   inkscape:export-xdpi="576"
-   inkscape:export-filename="D:\Project Real\Januari 1\Export\extended line\png\01 - Bed.png"
-   width="64pt"
-   height="64pt"
-   viewBox="0 0 22.577778 22.577778"
-   version="1.1"
-   id="svg831"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="02 - Table.svg">
-  <defs
-     id="defs825">
-    <pattern
-       id="EMFhbasepattern"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-9"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-0"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-7"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-2"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-98"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-6"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-01"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-07"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-8"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-4"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-40"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-08"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-04"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-014"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-27"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-09"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-5"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-    <pattern
-       id="EMFhbasepattern-018"
-       patternUnits="userSpaceOnUse"
-       width="6"
-       height="6"
-       x="0"
-       y="0" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="6.2578125"
-     inkscape:cx="42.666667"
-     inkscape:cy="42.666667"
-     inkscape:document-units="pt"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     units="pt"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:pagecheckerboard="true"
-     inkscape:showpageshadow="false"
-     inkscape:object-paths="true"
-     inkscape:snap-intersection-paths="true"
-     inkscape:snap-smooth-nodes="true"
-     inkscape:snap-midpoints="true"
-     showguides="true"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-nodes="false"
-     inkscape:snap-global="true"
-     inkscape:document-rotation="0">
-    <inkscape:grid
-       type="xygrid"
-       id="grid1378" />
-    <sodipodi:guide
-       position="0.97013831,21.607643"
-       orientation="78.000048,0"
-       id="guide1380"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="0.97013831,0.97013129"
-       orientation="0,78.000005"
-       id="guide1382"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="21.607639,0.97013129"
-       orientation="-78.000048,0"
-       id="guide1384"
-       inkscape:locked="false" />
-    <sodipodi:guide
-       position="21.607639,21.607643"
-       orientation="0,-78.000005"
-       id="guide1386"
-       inkscape:locked="false" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata828">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Icon"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-274.42223)">
-    <path
-       sodipodi:nodetypes="ccccccccccccssssccssssccccccccccccccccccccccccccccccccccccccccccccccccc"
-       d="m 20.260725,277.95876 c -0.04244,-0.13951 -0.170751,-0.23514 -0.316569,-0.23596 H 2.6355978 c -0.1458182,6.7e-4 -0.2741234,0.0965 -0.3165678,0.23596 l -1.33810361,4.37119 c -0.0170408,3.5679 -0.008793,7.1359 -0.008793,10.70385 l 5.648e-5,1e-5 c -9.94e-6,0.36369 0.30259263,0.66552 0.66628763,0.66563 h 1.0244614 c 0.3639114,1e-4 0.6640745,-0.30433 0.6630395,-0.66824 l -0.016907,-5.86919 1.3241254,-1.51394 v 2.39345 c 0,0.36368 0.3019604,0.66563 0.6656388,0.66563 h 0.9978085 c 0.3636778,0 0.6656385,-0.30195 0.6656388,-0.66563 v -3.32885 h 8.6552551 v 3.32885 c 0,0.36368 0.300009,0.66563 0.663688,0.66563 h 0.999759 c 0.363679,0 0.665638,-0.30195 0.665638,-0.66563 v -2.33624 l 1.304626,1.43723 v 5.8913 c -9e-6,0.36369 0.30194,0.66553 0.665639,0.66563 h 1.024459 c 0.363911,1e-4 0.667326,-0.30433 0.66629,-0.66824 -0.0034,-3.54924 -0.02073,-7.09843 -0.0094,-10.70353 z M 2.8813582,278.38845 H 19.698488 l 1.125216,3.66101 H 1.7561424 Z M 1.6384841,282.7151 H 20.941361 v 1.33128 H 1.6384841 Z m 0,10.31871 v -8.32114 h 0.9971602 c 0.0039,2.77372 0.01531,6.93298 0.020003,8.31984 z m 1.663448,-8.32114 h 1.2649734 l -1.2610728,1.43918 z m 2.149025,0 h 0.8457 v 3.32885 H 5.2988486 v -3.15464 z m 10.8302819,0 h 0.764445 l 0.235314,0.25937 v 3.06948 h -0.999759 z m 1.665398,0 h 1.304626 v 1.43918 l -1.304626,-1.43398 z m 1.997565,0 h 0.973107 l 0.02405,8.32114 H 19.9169 c 0.0038,-2.77375 0.01145,-5.54745 0.0273,-8.32114 z"
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
-       id="path417" />
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg831" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64"
+	 style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'ArialMT';}
+	.st1{font-size:15.14px;}
+</style>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" id="base" inkscape:bbox-nodes="true" inkscape:current-layer="layer1" inkscape:cx="42.666667" inkscape:cy="42.666667" inkscape:document-rotation="0" inkscape:document-units="pt" inkscape:object-paths="true" inkscape:pagecheckerboard="true" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:snap-global="true" inkscape:snap-intersection-paths="true" inkscape:snap-midpoints="true" inkscape:snap-nodes="false" inkscape:snap-smooth-nodes="true" inkscape:window-height="705" inkscape:window-maximized="1" inkscape:window-width="1366" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="6.2578125" pagecolor="#ffffff" showgrid="false" showguides="true" units="pt">
+	<inkscape:grid  id="grid1378" type="xygrid"></inkscape:grid>
+	<sodipodi:guide  id="guide1380" inkscape:locked="false" orientation="78.000048,0" position="0.97013831,21.607643">
+		</sodipodi:guide>
+	<sodipodi:guide  id="guide1382" inkscape:locked="false" orientation="0,78.000005" position="0.97013831,0.97013129">
+		</sodipodi:guide>
+	<sodipodi:guide  id="guide1384" inkscape:locked="false" orientation="-78.000048,0" position="21.607639,0.97013129">
+		</sodipodi:guide>
+	<sodipodi:guide  id="guide1386" inkscape:locked="false" orientation="0,-78.000005" position="21.607639,21.607643">
+		</sodipodi:guide>
+</sodipodi:namedview>
+<g id="layer1" transform="translate(0,-274.42223)" inkscape:groupmode="layer" inkscape:label="Icon">
+	<path id="path417" sodipodi:nodetypes="ccccccccccccssssccssssccccccccccccccccccccccccccccccccccccccccccccccccc" d="M57.4,280
+		c-0.1-0.4-0.5-0.7-0.9-0.7H7.5c-0.4,0-0.8,0.3-0.9,0.7l-3.8,12.4c0,10.1,0,20.2,0,30.3h0c0,1,0.9,1.9,1.9,1.9h2.9
+		c1,0,1.9-0.9,1.9-1.9l0-16.6l3.8-4.3v6.8c0,1,0.9,1.9,1.9,1.9h2.8c1,0,1.9-0.9,1.9-1.9v-9.4h24.5v9.4c0,1,0.9,1.9,1.9,1.9H49
+		c1,0,1.9-0.9,1.9-1.9V302l3.7,4.1v16.7c0,1,0.9,1.9,1.9,1.9h2.9c1,0,1.9-0.9,1.9-1.9c0-10.1-0.1-20.1,0-30.3L57.4,280z M8.2,281.3
+		h47.7l3.2,10.4H5L8.2,281.3z M4.6,293.5h54.7v3.8H4.6V293.5z M4.6,322.8v-23.6h2.8c0,7.9,0,19.7,0.1,23.6L4.6,322.8z M9.4,299.2
+		h3.6l-3.6,4.1L9.4,299.2z M15.5,299.2h2.4v9.4H15v-8.9L15.5,299.2z M46.2,299.2h2.2l0.7,0.7v8.7h-2.8L46.2,299.2z M50.9,299.2h3.7
+		v4.1L50.9,299.2L50.9,299.2z M56.5,299.2h2.8l0.1,23.6h-2.9C56.5,314.9,56.5,307,56.5,299.2z"/>
+</g>
+<text id="svg_24" transform="matrix(1.2344 0 0 1 7.5278 62.3475)" class="st0 st1">Столы</text>
 </svg>
