@@ -1,0 +1,60 @@
+main {
+  margin: 50px auto;
+  max-width: 1300px;
+}
+
+main .small_Posters {
+  width: 25%;
+  padding-left: 70px;
+}
+
+main .small_Posters a {
+  width: 100%;
+}
+
+main .small_Posters .hr1 {
+  display: block;
+}
+
+main .small_Posters .hr1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main .small_Posters .hr2 {
+  display: block;
+  padding-top: 14%;
+}
+
+main .small_Posters .hr2 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main .hr3 {
+  display: block;
+  float: right;
+  width: 57%;
+  padding-right: 70px;
+}
+
+main .hr3 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main .catalog {
+  margin-top: 50px;
+  text-align: center;
+}
+
+main .catalog a img {
+  width: 7%;
+  margin-left: 9%;
+}
+
+main .catalog a img:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+/*# sourceMappingURL=main_page.css.map */

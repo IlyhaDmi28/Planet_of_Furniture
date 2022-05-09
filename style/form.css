@@ -1,0 +1,78 @@
+.form {
+  max-width: 1363px;
+  margin: 50px auto;
+  padding: 0px 15px;
+}
+
+.form .name_forms {
+  font-family: 'Oswald';
+  font-size: 50px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-decoration-skip-ink: none;
+  text-decoration: underline;
+}
+
+.form form div {
+  margin-top: 24px;
+  width: 600px;
+  float: left;
+}
+
+.form form div input {
+  width: 600px;
+  height: 70px;
+  border-radius: 15px;
+  font-size: 25px;
+  padding-left: 8px;
+}
+
+.form form div input::-webkit-input-placeholder {
+  font-size: 25px;
+  opacity: 0.7;
+  font-family: 'Oswald';
+}
+
+.form form div select {
+  width: 600px;
+  height: 70px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-family: 'Oswald';
+  padding-left: 10px;
+}
+
+.form form div select option {
+  font-size: 25px;
+  padding-left: 10px;
+  opacity: 0.7;
+  font-family: 'Oswald';
+}
+
+.form form div b {
+  font-family: 'Oswald';
+  font-size: 28px;
+  line-height: 67px;
+}
+
+.form form div:nth-child(even) {
+  float: right;
+}
+
+.form form .order {
+  margin-top: 100px;
+  float: right;
+  width: 300px;
+}
+
+.form form .order input {
+  background-color: green;
+  width: 300px;
+  float: right;
+  width: 300px;
+  color: white;
+  font-family: 'Oswald';
+  font-size: 35px;
+  line-height: 59px;
+}
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,88 @@
+.cat {
+  height: 1100px;
+}
+
+.cat .ProductLeft {
+  width: 30%;
+  float: left;
+  margin-left: 15%;
+  margin-right: 0;
+}
+
+.cat .ProductLeft .pictureProduct {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.cat .ProductLeft a {
+  margin-top: 35px;
+  display: block;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.cat .ProductLeft a:first-child {
+  margin-top: 0px;
+}
+
+.cat .ProductLeft a:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.cat .ProductLeft a .name_Product {
+  height: 44.8px;
+}
+
+.cat .ProductLeft .price {
+  text-align: center;
+}
+
+.cat .ProductLeft .price span {
+  color: red;
+}
+
+.cat .ProductRight {
+  width: 30%;
+  float: right;
+  margin-left: 0;
+  margin-right: 15%;
+}
+
+.cat .ProductRight .pictureProduct {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.cat .ProductRight a {
+  margin-top: 35px;
+  display: block;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.cat .ProductRight a:first-child {
+  margin-top: 0px;
+}
+
+.cat .ProductRight a:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.cat .ProductRight a .name_Product {
+  height: 44.8px;
+}
+
+.cat .ProductRight .price {
+  text-align: center;
+}
+
+.cat .ProductRight .price span {
+  color: red;
+}
+/*# sourceMappingURL=catalog.css.map */

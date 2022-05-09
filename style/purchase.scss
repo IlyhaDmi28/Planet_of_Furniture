@@ -1,0 +1,55 @@
+.product {
+    max-width: 1500px;
+    height: 700px;
+    margin: 50px auto;
+    padding: 0px 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    img {
+        padding-top: 20px;
+    }
+    .price_on_Info{
+        font-size: 30px;
+        width: 300px;
+        margin-top: 20px;
+        padding-left: 17px;
+        span {
+            color: red;
+        }
+    }
+    .info_Prod{
+        padding-top: 0px;
+        float: right;
+        padding-right: 250px;
+        font-family: 'Manrope';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        align-items: center;
+        p:first-child{
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 38px;
+            align-items: center;
+            text-decoration-line: underline;
+            
+        }
+        .buy{
+            margin-top: 45px;
+            background-color: rgb(2, 155, 2);
+            width: 200px;
+            height: 50px;
+            float: left;
+            border-radius: 3px;
+            .make_Purchase{
+                font-size: 26px;
+                text-decoration-line: none;
+                padding-left: 60px;
+                line-height: 50px;
+                color:#FFFFFF;
+            }
+        }
+    }
+    //--------------------------------------------------------------------------
+}
+

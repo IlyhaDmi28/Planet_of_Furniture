@@ -1,84 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Планета мебели</title>
-    <link href="style/planet_furniture.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width">
-  </head>
-  <body>
-    <header>
-        <div class="header">
-            <div class="logo">
-                <img src="source/picture/logo.svg">
-                <div class="text">Планета мебели</div>       
-            </div>
-        </div>
-        <nav>
-            <ul class="menu">
-                <li class="sel"> 
-                    <a href="">Каталог </a>
-                    <ul>
-                        <li><a href="catalog.html"><b>Кровати</b></a></li>
-                        <li><a href=""><b>Стулья</b></a></li>
-                        <li><a href=""><b>Шкафы</b></a></li>
-                        <li><a href=""><b>Столы</b></a></li>
-                        <li><a href=""><b>Диваны</b>    </a></li>
-                    </ul>
-                </li>
-                <li class="other_menu"><a href="akcii.html">Акции</a></li>
-                <li><a href="delivery.html">Доставка</a></li>
-                <li><a href="installments.html">Расрочка</a></li>
-                <li> <a href="campany.html">О компании</a></li>
-            </ul>
-        </nav>
-    </header>
-
-
-    <main>
-        
-        <ul class="main_info_Installments">
-            <li><b>Ставка:</b> 13,99%</li>
-            <li><b>Срок:</b> 6, 9 месяцев</li>
-            <li><b>Сумма:</b> от 200 р. до 6000 р. без поручителей</li>
-            <li><b>Без справки о доходах</b></li>
-            <li><b>Минимальный размер первого взноса</b> – от 20%</li>
-        </ul>
-        
-        <div class="text_Installments">
-            <div>Механизмы предоставления рассрочки</div>
-            При обращении потребителя с просьбой получить рассрочку, организация предоставляет ему информацию и консультацию относительно порядка и условий получения рассрочки в банке. Оформляет счет-фактуру (договор оказания услуг) или договор купли-продажи:
-        </div>
-        <ol class="info_Installments">
-            <li>Клиент оформляет рассрочку дистанционно, без посещения банка, через Мобильное приложение Techno Mobile. Для этого необходимо устройство с доступом в интернет и камерой.</li>
-            <li>Клиента направляют в ближайшее отделение банка. Банк после получения от клиента необходимых документов (паспорт и счет-фактура/договор оказания услуг) организует рассмотрение заявки. При принятии положительного решения о предоставлении рассрочки потребителю, банк заключает с потребителем кредитный договор, который является основанием для перечисления банком денежных средств организации за приобретаемый товар/услугу.</li>
-            <li>Оформить заявление на рассрочку можно позвонив по телефону Контакт-центра 8 017 388-57-57 или отправив скан-копию/фото счет-фактуры на электронный адрес contact-center@tb.by, где заявка будет заполняться со слов клиента. При положительном предварительном решении службы безопасности, банк сообщает об этом клиенту и предлагает прийти в ближайшее отделение банка для получения рассрочки с необходимыми документами.</li>
-        </ol>
-    </main>
-
-    <footer class="footer">
-        <div class="footer__pay">
-            <div class="footer__pay-logo">
-                    <div class="pic-left">
-                        <img src="source/picture/foot-part1.svg">
-                    </div>
-                    <div class="pic-right">
-                        <img src="source/picture/foot-part2.svg">
-                    </div>
-            </div>
-        </div>
-        
-        <div class="footer__text">
-            <span>* Скидка действует при внесении 100% предоплаты( за исключением расчетов банковской картой «Карта покупок» эмитированной ОАО «Белгазпромбанк», или банковской картой «Smart», эмитированной ОАО «Дабрабыт», или банковской картой «FUN», эмитированной ОАО «БПС-Сбербанк», или банковской картой «Магнит», эмитированной ОАО «АСБ Беларусбанк», или банковской картой «Кредитная карточка», эмитированной ОАО «Приорбанк»). Цена по картам рассрочки перечеркнута.</span>
-        </div>
-        <div class="footer__add">
-            <span class="footer__add-text">© Унитарное предприятие «Торговый дом «Лагуна», 2006—2022<br>
-                Торговое дочернее унитарное предприятие «Торговый дом «Лагуна» "225415, Республика Беларусь, г. Барановичи Брестской области, ул. Волоховская, 26.<br>
-                В торговом реестре РБ с 1 декабря 2016 года (регистрационный номер 360520), УНП 290470274 Свидетельство о госрегистрации №290470274 от 7 апреля 2014 года</span>
-        </div>
-        </footer>
-  </body>
-</html>
+main {
+    .main_info_Installments{
+        list-style-type: none;
+        font-family: 'Roboto';
+        font-size: 22px;;
+        align-items: center;
+     }
+     .text_Installments {
+        padding-left: 40px;
+        font-family: 'Risque';
+        font-size: 20px;
+        align-items: center;
+        div {           
+            font-size: 24px;
+        }
+     }
+     .info_Installments {
+        font-family: 'Risque';
+        font-size: 20px;
+        align-items: center;
+        margin-left: 50px;
+     }
+}

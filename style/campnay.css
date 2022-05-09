@@ -1,0 +1,27 @@
+main .Campany {
+  width: 70%;
+}
+
+main .Campany p {
+  font-size: 60px;
+}
+
+main .Campany .logo {
+  margin-left: 0px;
+}
+
+main .main_info_Campany {
+  margin-top: 60px;
+  width: 67%;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+main .info_Campany {
+  font-family: 'Manrope';
+  font-size: 22px;
+  width: 67%;
+  margin-top: 20px;
+  text-align: justify;
+}
+/*# sourceMappingURL=campnay.css.map */

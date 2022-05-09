@@ -1,51 +1,68 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Планета мебели</title>
-    <link href="style/planet_furniture.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width">
-  </head>
-  <body>
-      <main class="form">
-
-        <div class="name_forms"><b>Оставить заявку</b></div>
-        <form>
-            <div>
-                <b>Имя</b>
-                <input type="text" placeholder="Введите имя"/>
-            </div>
-            <div>
-                <b>Фамилия</b>
-                <input type="text" placeholder="Введите фамилию"/>
-            </div>
-            <div>
-                <b>Адресс</b>
-                <input type="text" placeholder="Область, район, город, дом, квартира"/>
-            </div>
-            <div>
-                <b>Электронная почта</b>
-                <input type="email" placeholder="mondaxfeall1@gamil.com"/>
-            </div>
-            <div>
-                <b>Номер телефона</b>
-                <input type="text" placeholder="+375336461866"/>
-            </div>
-            <div>
-                <b>Способ оплаты</b>
-                <select>
-                    <option>Карта</option>
-                    <option>Налам</option>
-                    <option>Аналам</option>
-                  </select>
-            </div>
-            <div class="order">
-                <input type="submit" value="Заказать">
-            </div>  
-        </form>
-    </main>
-  </body>
-</html>
+.form {
+    max-width: 1363px;
+    margin: 50px auto;
+    padding: 0px 15px;
+    .name_forms{
+        font-family: 'Oswald';
+        font-size: 50px;
+        text-decoration-line: underline;
+        text-decoration-skip-ink: none;
+        text-decoration: underline;
+    }
+    form{
+        div {
+            margin-top: 24px;
+            width: 600px;   
+            input {
+                width: 600px;
+                height: 70px;
+                border-radius: 15px;
+                font-size: 25px;
+                padding-left: 8px;
+                &::-webkit-input-placeholder {
+                    font-size: 25px;
+                    opacity: 0.7;
+                    font-family: 'Oswald';
+                }
+            }
+            select {
+                width: 600px;
+                height: 70px;
+                border-radius: 15px;
+                font-size: 25px;
+                font-family: 'Oswald';
+                padding-left: 10px;
+                option {
+                    font-size: 25px;
+                    padding-left: 10px;
+                    opacity: 0.7;
+                    font-family: 'Oswald';
+                }
+            }
+            b {
+                font-family: 'Oswald';
+                font-size: 28px;
+                line-height: 67px;
+            }
+            float: left;
+            &:nth-child(even){
+                float: right;  
+            }
+        } 
+        .order {
+            margin-top: 100px;
+            input {
+                background-color: green;
+                width: 300px;
+                float: right;
+                width: 300px;
+                color: white;         
+                font-family: 'Oswald';
+                font-size: 35px;
+                line-height: 59px;
+            }
+            float: right;
+            width: 300px;
+        }  
+    }  
+}

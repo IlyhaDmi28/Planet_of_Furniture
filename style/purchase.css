@@ -1,0 +1,67 @@
+.product {
+  max-width: 1500px;
+  height: 700px;
+  margin: 50px auto;
+  padding: 0px 15px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product img {
+  padding-top: 20px;
+}
+
+.product .price_on_Info {
+  font-size: 30px;
+  width: 300px;
+  margin-top: 20px;
+  padding-left: 17px;
+}
+
+.product .price_on_Info span {
+  color: red;
+}
+
+.product .info_Prod {
+  padding-top: 0px;
+  float: right;
+  padding-right: 250px;
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product .info_Prod p:first-child {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 38px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.product .info_Prod .buy {
+  margin-top: 45px;
+  background-color: #029b02;
+  width: 200px;
+  height: 50px;
+  float: left;
+  border-radius: 3px;
+}
+
+.product .info_Prod .buy .make_Purchase {
+  font-size: 26px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  padding-left: 60px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=purchase.css.map */

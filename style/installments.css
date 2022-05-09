@@ -1,0 +1,31 @@
+main .main_info_Installments {
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-size: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .text_Installments {
+  padding-left: 40px;
+  font-family: 'Risque';
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .text_Installments div {
+  font-size: 24px;
+}
+
+main .info_Installments {
+  font-family: 'Risque';
+  font-size: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+}
+/*# sourceMappingURL=installments.css.map */
