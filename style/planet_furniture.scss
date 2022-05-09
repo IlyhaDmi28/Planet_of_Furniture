@@ -111,7 +111,7 @@ nav {
     }
 }
 
-article {
+main {
     margin: 50px auto;
     max-width: 1300px;
         .small_Posters{
@@ -554,7 +554,7 @@ footer{
 
 @media (max-width: 1280px)
 {
-    article {max-width: 1000px;
+    main {max-width: 1000px;
         .akcii {
             div {
                 font-size: 28px;
@@ -618,7 +618,7 @@ footer{
 
 @media (max-width: 1042px)
 {
-    article {max-width: 950px;
+    main {max-width: 950px;
         .akcii{
             div {
                 float: none;
@@ -651,7 +651,7 @@ footer{
 
 @media (max-width: 920px)
 {
-    article {
+    main {
         .akcii{
             div {
             font-size: 20px;
@@ -681,7 +681,7 @@ footer{
         }  
         
     }
-    article {max-width: 850px;
+    main {max-width: 850px;
         .delivery_Info {
             height: 250px;
             .car{
@@ -718,7 +718,7 @@ footer{
 
 @media (max-width: 842px)
 {
-    article {
+    main {
         max-width: 800px;
         .small_Posters{
             padding-left: 20px;
@@ -777,7 +777,7 @@ footer{
             }
         }
     }
-    article {
+    main {
         max-width: 800px;
         .small_Posters{
             padding-left: 20px;
@@ -805,7 +805,7 @@ footer{
 
 @media (max-width: 700px)
 {
-    article {
+    main {
         .akcii{
             text-align: center;
             padding-left: 0px;
@@ -879,7 +879,7 @@ footer{
 
 @media (max-width: 675px)
 {
-    article {
+    main {
        margin-top: 30px;
         .main_Text {
             font-size: 26px;
@@ -929,7 +929,7 @@ footer{
 
 // @media (max-width: 600px)
 // {
-//     article {
+//     main {
 //         .yellow_Line {
 //             height: 60px;
 //             border-radius: 10px;
@@ -957,7 +957,7 @@ footer{
 
 @media (max-width: 600px)
 {
-    article {
+    main {
         .yellow_Line {
             height: 60px;
             border-radius: 10px;
@@ -1136,7 +1136,7 @@ footer{
             margin-left: 100px;
         }
     }
-    article {
+    main {
         .logo {
             max-width: 290px;
             img {
@@ -1171,7 +1171,7 @@ footer{
     header {
         height: 92px;
     }
-    article {
+    main {
         width: 100vw;
         .yellow_Line {
             height: 50px;
@@ -1263,7 +1263,7 @@ footer{
     header {
         height: 60px;
     }
-    article {
+    main {
         margin-top: 20px;
         .akcii{
             text-align: center;

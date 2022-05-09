@@ -102,75 +102,75 @@ nav .other_menu {
   margin-left: 265px;
 }
 
-article {
+main {
   margin: 50px auto;
   max-width: 1300px;
 }
 
-article .small_Posters {
+main .small_Posters {
   width: 25%;
   padding-left: 70px;
 }
 
-article .small_Posters a {
+main .small_Posters a {
   width: 100%;
 }
 
-article .small_Posters .hr1 {
+main .small_Posters .hr1 {
   display: block;
 }
 
-article .small_Posters .hr1 img {
+main .small_Posters .hr1 img {
   width: 100%;
   border-radius: 10px;
 }
 
-article .small_Posters .hr2 {
+main .small_Posters .hr2 {
   display: block;
   padding-top: 14%;
 }
 
-article .small_Posters .hr2 img {
+main .small_Posters .hr2 img {
   width: 100%;
   border-radius: 10px;
 }
 
-article .hr3 {
+main .hr3 {
   display: block;
   float: right;
   width: 57%;
   padding-right: 70px;
 }
 
-article .hr3 img {
+main .hr3 img {
   width: 100%;
   border-radius: 10px;
 }
 
-article .catalog {
+main .catalog {
   margin-top: 50px;
   text-align: center;
 }
 
-article .catalog img {
+main .catalog img {
   width: 7%;
   margin-left: 9%;
 }
 
-article .ProductLeft {
+main .ProductLeft {
   width: 30%;
   float: left;
   margin-left: 15%;
   margin-right: 0;
 }
 
-article .ProductLeft .pictureProduct {
+main .ProductLeft .pictureProduct {
   width: 100%;
   height: 250px;
   border-radius: 10px;
 }
 
-article .ProductLeft a {
+main .ProductLeft a {
   margin-top: 35px;
   display: block;
   font-size: 20px;
@@ -178,41 +178,41 @@ article .ProductLeft a {
   text-decoration: none;
 }
 
-article .ProductLeft a:first-child {
+main .ProductLeft a:first-child {
   margin-top: 0px;
 }
 
-article .ProductLeft a:hover {
+main .ProductLeft a:hover {
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
 }
 
-article .ProductLeft a .name_Product {
+main .ProductLeft a .name_Product {
   height: 44.8px;
 }
 
-article .ProductLeft .price {
+main .ProductLeft .price {
   text-align: center;
 }
 
-article .ProductLeft .price span {
+main .ProductLeft .price span {
   color: red;
 }
 
-article .ProductRight {
+main .ProductRight {
   width: 30%;
   float: right;
   margin-left: 0;
   margin-right: 15%;
 }
 
-article .ProductRight .pictureProduct {
+main .ProductRight .pictureProduct {
   width: 100%;
   height: 250px;
   border-radius: 10px;
 }
 
-article .ProductRight a {
+main .ProductRight a {
   margin-top: 35px;
   display: block;
   font-size: 20px;
@@ -220,38 +220,38 @@ article .ProductRight a {
   text-decoration: none;
 }
 
-article .ProductRight a:first-child {
+main .ProductRight a:first-child {
   margin-top: 0px;
 }
 
-article .ProductRight a:hover {
+main .ProductRight a:hover {
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
 }
 
-article .ProductRight a .name_Product {
+main .ProductRight a .name_Product {
   height: 44.8px;
 }
 
-article .ProductRight .price {
+main .ProductRight .price {
   text-align: center;
 }
 
-article .ProductRight .price span {
+main .ProductRight .price span {
   color: red;
 }
 
-article .akcii {
+main .akcii {
   margin-top: 50px;
   width: 90%;
   padding-left: 70px;
 }
 
-article .akcii img {
+main .akcii img {
   width: 30%;
 }
 
-article .akcii div {
+main .akcii div {
   font-family: 'Roboto';
   font-size: 28px;
   line-height: 35px;
@@ -262,7 +262,7 @@ article .akcii div {
   padding-top: 50px;
 }
 
-article .main_info_Installments {
+main .main_info_Installments {
   list-style-type: none;
   font-family: 'Roboto';
   font-size: 22px;
@@ -271,7 +271,7 @@ article .main_info_Installments {
           align-items: center;
 }
 
-article .text_Installments {
+main .text_Installments {
   padding-left: 40px;
   font-family: 'Risque';
   font-size: 20px;
@@ -280,11 +280,11 @@ article .text_Installments {
           align-items: center;
 }
 
-article .text_Installments div {
+main .text_Installments div {
   font-size: 24px;
 }
 
-article .info_Installments {
+main .info_Installments {
   font-family: 'Risque';
   font-size: 20px;
   -webkit-box-align: center;
@@ -293,7 +293,7 @@ article .info_Installments {
   margin-left: 50px;
 }
 
-article .yellow_Line {
+main .yellow_Line {
   background-color: yellow;
   height: 70px;
   border-radius: 10px;
@@ -303,18 +303,18 @@ article .yellow_Line {
   width: 100%;
 }
 
-article .yellow_Line p {
+main .yellow_Line p {
   padding-left: 40px;
 }
 
-article .main_Text {
+main .main_Text {
   font-size: 30px;
   text-align: center;
   margin-top: 30px;
   width: 100%;
 }
 
-article .delivery_Info {
+main .delivery_Info {
   width: 45%;
   height: 300px;
   margin-top: 30px;
@@ -322,58 +322,58 @@ article .delivery_Info {
   font-size: 20px;
 }
 
-article .delivery_Info tr td {
+main .delivery_Info tr td {
   border: 1px solid gray;
 }
 
-article .delivery_Info tr th {
+main .delivery_Info tr th {
   border: 1px solid gray;
   background-color: #3ec755;
   color: white;
 }
 
-article .delivery_Info tr th:first-child {
+main .delivery_Info tr th:first-child {
   border-top-left-radius: 10px;
 }
 
-article .delivery_Info tr th:last-child {
+main .delivery_Info tr th:last-child {
   border-top-right-radius: 10px;
 }
 
-article .car {
+main .car {
   float: right;
   padding-right: 200px;
   width: 500px;
   display: block;
 }
 
-article .foot_table {
+main .foot_table {
   font-size: 18px;
   margin-top: 30px;
   color: #2b3057;
   width: 50%;
 }
 
-article .Campany {
+main .Campany {
   width: 70%;
 }
 
-article .Campany p {
+main .Campany p {
   font-size: 60px;
 }
 
-article .Campany .logo {
+main .Campany .logo {
   margin-left: 0px;
 }
 
-article .main_info_Campany {
+main .main_info_Campany {
   margin-top: 60px;
   width: 67%;
   font-family: 'Roboto';
   font-size: 22px;
 }
 
-article .info_Campany {
+main .info_Campany {
   font-family: 'Manrope';
   font-size: 22px;
   width: 67%;
@@ -633,48 +633,48 @@ footer .footer__add .footer__add-text {
 }
 
 @media (max-width: 1280px) {
-  article {
+  main {
     max-width: 1000px;
   }
-  article .akcii div {
+  main .akcii div {
     font-size: 28px;
     padding-right: 100px;
   }
-  article .Campany {
+  main .Campany {
     width: 70%;
   }
-  article .Campany p {
+  main .Campany p {
     font-size: 45px;
   }
-  article .car {
+  main .car {
     float: right;
     padding-right: 30px;
   }
-  article .foot_table {
+  main .foot_table {
     font-size: 18px;
   }
-  article .main_info_Campany {
+  main .main_info_Campany {
     margin-top: 50px;
     font-size: 20px;
   }
-  article .info_Campany {
+  main .info_Campany {
     font-size: 20px;
     margin-top: 16px;
   }
-  article .logo {
+  main .logo {
     max-width: 480px;
   }
-  article .logo img {
+  main .logo img {
     max-width: 70px;
   }
-  article .logo .text {
+  main .logo .text {
     font-size: 30px;
     padding-top: 20px;
   }
-  article .ProductLeft .pictureProduct {
+  main .ProductLeft .pictureProduct {
     height: 200px;
   }
-  article .ProductRight .pictureProduct {
+  main .ProductRight .pictureProduct {
     height: 200px;
   }
   .form form div:nth-child(even) {
@@ -683,25 +683,25 @@ footer .footer__add .footer__add-text {
 }
 
 @media (max-width: 1042px) {
-  article {
+  main {
     max-width: 950px;
   }
-  article .akcii div {
+  main .akcii div {
     float: none;
   }
-  article .car {
+  main .car {
     padding-right: 0px;
   }
-  article .ProductLeft .pictureProduct {
+  main .ProductLeft .pictureProduct {
     height: 180px;
   }
-  article .ProductLeft a {
+  main .ProductLeft a {
     font-size: 18px;
   }
-  article .ProductRight .pictureProduct {
+  main .ProductRight .pictureProduct {
     height: 180px;
   }
-  article .ProductRight a {
+  main .ProductRight a {
     font-size: 18px;
   }
   .cat {
@@ -710,11 +710,11 @@ footer .footer__add .footer__add-text {
 }
 
 @media (max-width: 920px) {
-  article .akcii div {
+  main .akcii div {
     font-size: 20px;
     line-height: 20px;
   }
-  article .car {
+  main .car {
     width: 440px;
   }
 }
@@ -732,30 +732,30 @@ footer .footer__add .footer__add-text {
   .logo .text {
     font-size: 50px;
   }
-  article {
+  main {
     max-width: 850px;
   }
-  article .delivery_Info {
+  main .delivery_Info {
     height: 250px;
   }
-  article .delivery_Info .car {
+  main .delivery_Info .car {
     float: right;
     padding-right: 10px;
     width: 30%;
   }
-  article .delivery_Info .car img {
+  main .delivery_Info .car img {
     width: 150%;
   }
-  article .ProductLeft .pictureProduct {
+  main .ProductLeft .pictureProduct {
     height: 150px;
   }
-  article .ProductLeft a {
+  main .ProductLeft a {
     font-size: 15px;
   }
-  article .ProductRight .pictureProduct {
+  main .ProductRight .pictureProduct {
     height: 150px;
   }
-  article .ProductRight a {
+  main .ProductRight a {
     font-size: 15px;
   }
   .cat {
@@ -764,16 +764,16 @@ footer .footer__add .footer__add-text {
 }
 
 @media (max-width: 842px) {
-  article {
+  main {
     max-width: 800px;
   }
-  article .small_Posters {
+  main .small_Posters {
     padding-left: 20px;
   }
-  article .hr3 {
+  main .hr3 {
     padding-right: 20px;
   }
-  article .akcii div {
+  main .akcii div {
     padding-top: 10px;
   }
   .header {
@@ -815,58 +815,58 @@ footer .footer__add .footer__add-text {
   header .menu .sel ul {
     padding-top: 0px;
   }
-  article {
+  main {
     max-width: 800px;
   }
-  article .small_Posters {
+  main .small_Posters {
     padding-left: 20px;
   }
-  article .hr3 {
+  main .hr3 {
     padding-right: 20px;
   }
-  article .delivery_Info {
+  main .delivery_Info {
     font-size: 16px;
   }
-  article .car {
+  main .car {
     width: 365px;
   }
 }
 
 @media (max-width: 700px) {
-  article .akcii {
+  main .akcii {
     text-align: center;
     padding-left: 0px;
   }
-  article .akcii div {
+  main .akcii div {
     width: 50%;
     font-size: 16px;
     padding-left: 30%;
     text-align: start;
   }
-  article .foot_table {
+  main .foot_table {
     width: 100%;
   }
-  article .Campany p {
+  main .Campany p {
     font-size: 40px;
   }
-  article .main_info_Campany {
+  main .main_info_Campany {
     margin-top: 50px;
     font-size: 16px;
   }
-  article .info_Campany {
+  main .info_Campany {
     font-size: 17px;
     margin-top: 15px;
   }
-  article .ProductLeft .pictureProduct {
+  main .ProductLeft .pictureProduct {
     height: 130px;
   }
-  article .ProductLeft a {
+  main .ProductLeft a {
     font-size: 12px;
   }
-  article .ProductRight .pictureProduct {
+  main .ProductRight .pictureProduct {
     height: 130px;
   }
-  article .ProductRight a {
+  main .ProductRight a {
     font-size: 12px;
   }
   .product {
@@ -897,30 +897,30 @@ footer .footer__add .footer__add-text {
 }
 
 @media (max-width: 675px) {
-  article {
+  main {
     margin-top: 30px;
   }
-  article .main_Text {
+  main .main_Text {
     font-size: 26px;
   }
-  article .delivery_Info {
+  main .delivery_Info {
     font-size: 13px;
     height: 200px;
   }
-  article .car {
+  main .car {
     width: 330px;
   }
-  article .logo {
+  main .logo {
     max-width: 400px;
   }
-  article .logo img {
+  main .logo img {
     max-width: 55px;
   }
-  article .logo .text {
+  main .logo .text {
     font-size: 24px;
     padding-top: 15px;
   }
-  article .catalog {
+  main .catalog {
     margin-top: 10px;
   }
   footer .footer__text {
@@ -941,7 +941,7 @@ footer .footer__add .footer__add-text {
 }
 
 @media (max-width: 600px) {
-  article .yellow_Line {
+  main .yellow_Line {
     height: 60px;
     border-radius: 10px;
     line-height: 60px;
@@ -949,35 +949,35 @@ footer .footer__add .footer__add-text {
     text-align: left;
     width: 100%;
   }
-  article .yellow_Line p {
+  main .yellow_Line p {
     padding-left: 30px;
   }
-  article .delivery_Info {
+  main .delivery_Info {
     font-size: 13px;
     height: 180px;
   }
-  article .car {
+  main .car {
     width: 280px;
   }
-  article .foot_table {
+  main .foot_table {
     font-size: 15px;
   }
-  article .ProductLeft .pictureProduct {
+  main .ProductLeft .pictureProduct {
     height: 100px;
   }
-  article .ProductLeft a {
+  main .ProductLeft a {
     font-size: 10px;
   }
-  article .ProductLeft a .name_Product {
+  main .ProductLeft a .name_Product {
     height: 32px;
   }
-  article .ProductRight .pictureProduct {
+  main .ProductRight .pictureProduct {
     height: 100px;
   }
-  article .ProductRight a {
+  main .ProductRight a {
     font-size: 10px;
   }
-  article .ProductRight a .name_Product {
+  main .ProductRight a .name_Product {
     height: 32px;
   }
   .cat {
@@ -1101,27 +1101,27 @@ footer .footer__add .footer__add-text {
   nav .other_menu {
     margin-left: 100px;
   }
-  article .logo {
+  main .logo {
     max-width: 290px;
   }
-  article .logo img {
+  main .logo img {
     max-width: 35px;
   }
-  article .logo .text {
+  main .logo .text {
     font-size: 18px;
     padding-top: 9px;
   }
-  article .Campany {
+  main .Campany {
     margin-top: 80px;
   }
-  article .Campany p {
+  main .Campany p {
     font-size: 35px;
   }
-  article .main_info_Campany {
+  main .main_info_Campany {
     margin-top: 30px;
     font-size: 16px;
   }
-  article .info_Campany {
+  main .info_Campany {
     font-size: 17px;
     margin-top: 15px;
   }
@@ -1134,44 +1134,44 @@ footer .footer__add .footer__add-text {
   header {
     height: 92px;
   }
-  article {
+  main {
     width: 100vw;
   }
-  article .yellow_Line {
+  main .yellow_Line {
     height: 50px;
     width: 100%;
     line-height: 50px;
   }
-  article .main_Text {
+  main .main_Text {
     font-size: 20px;
   }
-  article .delivery_Info {
+  main .delivery_Info {
     font-size: 10px;
     height: 100px;
   }
-  article .car {
+  main .car {
     width: 50vw;
     padding-left: 0px;
   }
-  article .foot_table {
+  main .foot_table {
     font-size: 12px;
   }
-  article .ProductLeft .pictureProduct {
+  main .ProductLeft .pictureProduct {
     height: 80px;
   }
-  article .ProductLeft a {
+  main .ProductLeft a {
     font-size: 8px;
   }
-  article .ProductLeft a .name_Product {
+  main .ProductLeft a .name_Product {
     height: 26px;
   }
-  article .ProductRight .pictureProduct {
+  main .ProductRight .pictureProduct {
     height: 80px;
   }
-  article .ProductRight a {
+  main .ProductRight a {
     font-size: 8px;
   }
-  article .ProductRight a .name_Product {
+  main .ProductRight a .name_Product {
     height: 26px;
   }
   .cat {
@@ -1219,40 +1219,40 @@ footer .footer__add .footer__add-text {
   header {
     height: 60px;
   }
-  article {
+  main {
     margin-top: 20px;
   }
-  article .akcii {
+  main .akcii {
     text-align: center;
     padding-left: 0px;
   }
-  article .akcii div {
+  main .akcii div {
     width: 40%;
     font-size: 13px;
     padding-left: 32%;
     text-align: start;
   }
-  article .logo {
+  main .logo {
     max-width: 200px;
   }
-  article .logo img {
+  main .logo img {
     max-width: 25px;
   }
-  article .logo .text {
+  main .logo .text {
     font-size: 12px;
     padding-top: 6px;
   }
-  article .Campany {
+  main .Campany {
     margin-top: 30px;
   }
-  article .Campany p {
+  main .Campany p {
     font-size: 28px;
   }
-  article .main_info_Campany {
+  main .main_info_Campany {
     margin-top: 30px;
     font-size: 12px;
   }
-  article .info_Campany {
+  main .info_Campany {
     font-size: 12px;
     margin-top: 15px;
   }
