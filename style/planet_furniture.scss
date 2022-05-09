@@ -607,6 +607,7 @@ footer{
     .form {
         form{
             div {  
+                
                 &:nth-child(even){
                     float: none;  
                 }
@@ -766,6 +767,16 @@ footer{
 
 @media (max-width: 842px)
 {
+    header {
+        .menu {
+            height: 30px;
+            .sel {
+                ul {
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
     article {
         max-width: 800px;
         .small_Posters{
@@ -1078,6 +1089,7 @@ footer{
 {
     header {
         height: 105px;
+        
     }
     .header {
         height: 80px;
@@ -1095,9 +1107,22 @@ footer{
     nav {
         height: 25px;
         .menu {
-            height: 50px;
+            height: 25px;
             padding-top: 0px;
+            .sel {
+                ul {
+                   top: 25px;
+                    li{
+                         height: 30px;       
+                         a {
+                             font-size: 13px;
+                             line-height: 30px;
+                         }
+                     }
+                }
+            }
             li{
+                height: 25px;
                 width: 15%;
                 display: inline-block;
                 text-align: center;
