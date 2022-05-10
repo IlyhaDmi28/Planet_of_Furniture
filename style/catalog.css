@@ -16,6 +16,7 @@
 }
 
 .cat .ProductLeft a {
+  font-family: 'Roboto';
   margin-top: 35px;
   display: block;
   font-size: 20px;
@@ -58,6 +59,7 @@
 }
 
 .cat .ProductRight a {
+  font-family: 'Roboto';
   margin-top: 35px;
   display: block;
   font-size: 20px;

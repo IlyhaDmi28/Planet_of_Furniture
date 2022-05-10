@@ -1,4 +1,9 @@
 body {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Risque', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Seymour One', sans-serif;
     background: #ffffff;
     margin: 0;
 }
@@ -132,23 +137,17 @@ footer{
         margin-top: 30px;
         margin-bottom: 30px;
         text-align: center;
-        font-style: normal;
-        font-weight: 400;
         font-size: 11px;
         line-height: 17px;
-        align-items: center;
         color: #606060;
     }
     .footer__add {
         text-align: center;
         .footer__add-text {
             font-family: Gilroy,sans-serif;
-            font-style: normal;
-            font-weight: 400;
             font-size: 11px;
             line-height: 18px;
             align-items: center;
-            text-align: center;
             color: #000;
         }
     }
@@ -189,8 +188,7 @@ footer{
     }
 }
 
-@media (max-width: 1280px)
-{
+@media (max-width: 1280px){
     main {max-width: 1000px;
         .akcii {
             div {
@@ -253,8 +251,7 @@ footer{
     }
 }
 
-@media (max-width: 1042px)
-{
+@media (max-width: 1042px){
     main {max-width: 950px;
         .akcii{
             div {
@@ -286,8 +283,7 @@ footer{
     }
 }   
 
-@media (max-width: 920px)
-{
+@media (max-width: 920px){
     main {
         .akcii{
             div {
@@ -301,10 +297,7 @@ footer{
     }
 } 
 
-
-
-@media (max-width: 890px)
-{
+@media (max-width: 890px){
     .header{
         height: 120px;
     }
@@ -353,8 +346,7 @@ footer{
     }
 }
 
-@media (max-width: 842px)
-{
+@media (max-width: 842px){
     main {
         max-width: 800px;
         .small_Posters{
@@ -402,8 +394,7 @@ footer{
     }
 }
 
-@media (max-width: 842px)
-{
+@media (max-width: 842px){
     header {
         .menu {
             height: 30px;
@@ -439,9 +430,7 @@ footer{
     }
 }   
 
-
-@media (max-width: 700px)
-{
+@media (max-width: 700px){
     main {
         .akcii{
             text-align: center;
@@ -492,7 +481,7 @@ footer{
     .product {
         max-width: 600px;
         box-shadow: none;
-        height: 1000px;
+        height: 1100px;
         img {
             width: 100%;
         }
@@ -517,8 +506,7 @@ footer{
     }
 }   
 
-@media (max-width: 675px)
-{
+@media (max-width: 675px){
     main {
        margin-top: 30px;
         .main_Text {
@@ -565,38 +553,9 @@ footer{
             }
         }
     }
-}   
+}    
 
-// @media (max-width: 600px)
-// {
-//     main {
-//         .yellow_Line {
-//             height: 60px;
-//             border-radius: 10px;
-//             line-height: 60px;
-//             font-size: 20px;
-//             text-align: left;
-//             width: 100%;
-//             p {
-//                 padding-left: 30px;
-//             }
-//         }
-//         .delivery_Info {
-//             font-size: 13px;
-//             height: 180px;
-            
-//         }
-//         .car {
-//             width: 280px;
-//         }
-//         .foot_table {
-//             font-size: 15px;
-//         }
-//     }
-// }   
-
-@media (max-width: 600px)
-{
+@media (max-width: 600px){
     main {
         .yellow_Line {
             height: 60px;
@@ -862,7 +821,7 @@ footer{
     .product {
         margin-left: 0px;
         max-width: 90%;
-        height: 800px;
+        height: 900px;
         img {
             width: 100%;
         }

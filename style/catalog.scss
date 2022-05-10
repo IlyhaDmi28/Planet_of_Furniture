@@ -25,6 +25,7 @@
             @include picProd;
         }
         a {
+            font-family: 'Roboto';
             @include textProd;
             &:first-child{
                 margin-top: 0px;
@@ -51,6 +52,7 @@
             @include picProd;
         }
         a {
+            font-family: 'Roboto';
             @include textProd;
             &:first-child{
                 margin-top: 0px;

@@ -1,3 +1,7 @@
+main {
+  font-family: 'Risque';
+}
+
 main .yellow_Line {
   background-color: yellow;
   height: 70px;

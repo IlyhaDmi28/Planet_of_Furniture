@@ -1,4 +1,9 @@
 body {
+  font-family: 'Manrope', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Risque', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Seymour One', sans-serif;
   background: #ffffff;
   margin: 0;
 }
@@ -154,13 +159,8 @@ footer .footer__text {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
-  font-style: normal;
-  font-weight: 400;
   font-size: 11px;
   line-height: 17px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #606060;
 }
 
@@ -170,14 +170,11 @@ footer .footer__add {
 
 footer .footer__add .footer__add-text {
   font-family: Gilroy,sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 11px;
   line-height: 18px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
   color: #000;
 }
 
@@ -453,7 +450,7 @@ footer .footer__add .footer__add-text {
     max-width: 600px;
     -webkit-box-shadow: none;
             box-shadow: none;
-    height: 1000px;
+    height: 1100px;
   }
   .product img {
     width: 100%;
@@ -760,7 +757,7 @@ footer .footer__add .footer__add-text {
   .product {
     margin-left: 0px;
     max-width: 90%;
-    height: 800px;
+    height: 900px;
   }
   .product img {
     width: 100%;
