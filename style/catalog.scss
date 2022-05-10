@@ -17,6 +17,12 @@
     text-decoration: none;
 }
 
+$top: 0px;
+$h: 44.8px;
+$pozText: center;
+$big: scale(1.01);
+$c: red;
+
 .cat {
     height: 1100px;
     .ProductLeft{
@@ -28,19 +34,19 @@
             font-family: 'Roboto';
             @include textProd;
             &:first-child{
-                margin-top: 0px;
+                margin-top: $top;
             }
             &:hover {
-                transform: scale(1.01);
+                transform: $big;
             }
             .name_Product {
-                height: 44.8px;
+                height: $h;
             }
         }
         .price {
-            text-align: center;
+            text-align: $pozText;
             span {
-                color: red;
+                color: $c;
             }
         }
     }
@@ -55,19 +61,19 @@
             font-family: 'Roboto';
             @include textProd;
             &:first-child{
-                margin-top: 0px;
+                margin-top: $top;
             }
             &:hover {
-                transform: scale(1.01);
+                transform: $big;
             }
             .name_Product {
-                height: 44.8px;
+                height: $h;
             }
         }
         .price {
-            text-align: center;
+            text-align: $pozText;
             span {
-                color: red;
+                color: $c;
             }
         }
     }
