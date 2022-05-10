@@ -497,8 +497,8 @@ footer .footer__add .footer__add-text {
     font-size: 24px;
     padding-top: 15px;
   }
-  main .catalog {
-    margin-top: 10px;
+  main .catalog a {
+    width: 42px;
   }
   footer .footer__text {
     width: 100vw;
