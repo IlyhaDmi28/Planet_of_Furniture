@@ -119,6 +119,7 @@ footer{
             align-items: center;
             .pic-left {
                 margin-right: 20px;
+                width: 487px;
             }
             .pic-right {
                 margin-left: 20px;
@@ -461,11 +462,6 @@ footer{
             font-size: 17px;
             margin-top: 15px;
         }
-        .catalog {
-            img {
-
-            }
-        }
     }
     .cat {
         height: 700px;
@@ -694,8 +690,7 @@ footer{
     }
 }  
 
-@media (max-width: 560px)
-{
+@media (max-width: 560px){
     header {
         height: 105px;
         
