@@ -11,6 +11,8 @@ body {
 .logo {
   margin: 0px auto;
   max-width: 900px;
+  display: block;
+  text-decoration: none;
   text-align: center;
   font-family: "Seymour One";
   font-size: 60px;
@@ -24,6 +26,7 @@ body {
 
 .logo .text {
   padding-top: 35px;
+  color: #000;
 }
 
 .header {

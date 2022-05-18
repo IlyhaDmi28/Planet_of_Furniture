@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop>
+    <bed>
+        <product>
+            <name> Кровать Halmar VIOLETTA 120/200 античная черешня/черный</name>
+            <image>../source/picture/bed1.jpg </image>
+        </product>
+        <product>
+            <name>Кровать DeniZ Vera classic (D-01) 160х200</name>
+            <image>../source/picture/bed2.jpg</image>
+        </product>
+        <product>
+            <name>Кровать Князев-мебель Нимфея НЯ.180.200.Ч</name>
+            <image>../source/picture/bed3.jpg</image>
+        </product>
+        <product>
+            <name> Кровать Halmar Sandy 2 160 (серый/бук)</name>
+            <image>../source/picture/bed4.jpg </image>
+        </product>
+        <product>
+            <name>Кровать Интерлиния Констанция КН-001-2 (дуб венге)</name>
+            <image>../source/picture/bed5.jpg</image>
+        </product>
+        <product>
+            <name>Кровать Halmar Cassandra S 140 (бело-черный)</name>
+            <image>../source/picture/bed6.jpg</image>
+        </product>
+    </bed>
+    <chair>
+        <product>
+            <name>Кресло Letto Джулия (светлое)</name>
+            <image>../source/picture/chair1.jpg </image>
+        </product>
+        <product>
+            <name>Кресло IKEA Страндмон [804.199.42]</name>
+            <image>../source/picture/chair2.jpg</image>
+        </product>
+        <product>
+            <name>Кухонный стул Signal Nero белы</name>
+            <image>../source/picture/chair3.jpg</image>
+        </product>
+        <product>
+            <name>Кухонный стул Калинковичский мебельный краситель 315</name>
+            <image>../source/picture/chair4.jpg </image>
+        </product>
+        <product>
+            <name>Кресло из ротанга ЭкоДизайн 05/17 К</name>
+            <image>../source/picture/chair5.jpg</image>
+        </product>
+        <product>
+            <name>Офисное кресло, стул Viroko Style Prima ChM</name>
+            <image>..source/picture/chair6.jpg</image>
+        </product>
+    </chair>
+</shop>

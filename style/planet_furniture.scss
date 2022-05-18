@@ -12,6 +12,8 @@ body {
 .logo {
     margin: 0px auto;
     max-width: 900px;
+    display: block;
+    text-decoration: none;
      img {
         float: left;
         padding-left: 30px;
@@ -22,6 +24,7 @@ body {
     font-size: 60px;
     .text {
         padding-top: 35px;
+        color: #000;
     }
         
 }  
